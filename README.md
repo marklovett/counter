@@ -1,0 +1,4 @@
+counter
+=======
+
+PHP SQL counter
