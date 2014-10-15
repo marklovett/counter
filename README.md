@@ -1,1 +1,1 @@
-PHP SQL counter
+PHP SQL mantra counter
