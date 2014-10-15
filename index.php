@@ -26,13 +26,11 @@
 
  </style>
   
-<script>
 
-
-</script>
 </head>
 <body>
-<<<<<<< HEAD
+
+
 <?php 
 	//setting CONSTANTS for host, user, password
 DEFINE('DB_HOST', 'localhost');  // localhost:8888
@@ -55,9 +53,7 @@ mysqli_query($conn,"INSERT INTO mantras(Num) VALUES ($mantra)");
 
 $result = mysqli_query("SELECT COUNT(Num) FROM mantras");
 ?>
-=======
-	<h1></h1>
->>>>>>> FETCH_HEAD
+
 
 <form method="post" action= "process.php" >
 	<p><strong>Amitabha Million Mantra Accumulation: </strong><br></p>
