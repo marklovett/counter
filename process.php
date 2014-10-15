@@ -68,8 +68,16 @@ var_dump($result);
 <div>   
     <h2>Thank you for your <?php echo $mantra; ?> Amitabha Mantras!</h2> 
     <p>Remember to dedicate your merit.</p> 
+<<<<<<< HEAD
     <p><a href="index.php">Return to the main site</a></p> 
 </div>
 
 </body>
 </html>
+=======
+    <p><a href="index2.php">Return to the main site</a></p> 
+</div>
+
+</body>
+</html>
+>>>>>>> FETCH_HEAD
