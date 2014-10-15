@@ -18,11 +18,8 @@
       margin: 0 auto;
       }
 
-   
  </style>
   
-<script>
-</script>
 </head>
 <body>
    
@@ -48,18 +45,6 @@ mysqli_query($conn,"INSERT INTO mantras(Num) VALUES ($mantra)");
 
 $result = mysqli_query("SELECT COUNT(Num) FROM mantras");
 
-var_dump($result);
-
-
-// mysqli_query("UPDATE mantras SET num = num + 1");
-
-// $query = "SELECT SUM(Num) FROM mantras";
-// $result = mysqli_query($query);
-// // while($row = mysqli_fetch_array($result)) {   
-// //  }
-
-// var_dump($query);
-
 
 
 
@@ -68,16 +53,10 @@ var_dump($result);
 <div>   
     <h2>Thank you for your <?php echo $mantra; ?> Amitabha Mantras!</h2> 
     <p>Remember to dedicate your merit.</p> 
-<<<<<<< HEAD
     <p><a href="index.php">Return to the main site</a></p> 
 </div>
 
 </body>
 </html>
-=======
-    <p><a href="index2.php">Return to the main site</a></p> 
-</div>
 
-</body>
-</html>
->>>>>>> FETCH_HEAD
+
